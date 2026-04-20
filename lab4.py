@@ -46,12 +46,13 @@ def remove_note() -> str:
 
     # check if storage file exists, if not return.
     if not p.exists():
-        '''
-        REQUIREMENT 3:
-        - Uncomment line 53 to complete 3.
-        '''
-        raise FileNotFoundError("pynote.txt does not exist, cannot remove note.")
-        return
+        """
+        REQUIREMENT 3 - Should be very similar, custom message not required.
+        - remove the return line and uncomment the commented raise line to complete 3.
+        """
+        # return
+        # raise FileNotFoundError("pynote.txt does not exist")
+        raise FileNotFoundError("pynote.txt does not exist")
     
     print("Here are your notes: \n")
     # open and write user note to file
