@@ -50,7 +50,7 @@ def remove_note() -> str:
         REQUIREMENT 3:
         - Uncomment line 53 to complete 3.
         '''
-        #raise FileNotFoundError("pynote.txt does not exist, cannot remove note.")
+        raise FileNotFoundError("pynote.txt does not exist, cannot remove note.")
         return
     
     print("Here are your notes: \n")
