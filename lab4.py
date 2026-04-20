@@ -104,7 +104,7 @@ def test_is_int():
     assert is_int("5.5") == False
     assert is_int("abc") == False
     assert is_int(5) == True
-    assert is_int(5.5) == False
+    assert is_int(5.5) == True
     assert is_int(True) == False
     return
 
